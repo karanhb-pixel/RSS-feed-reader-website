@@ -1,0 +1,83 @@
+.heading,
+.subheading {
+  text-align: center;
+  margin-top: 2rem;
+}
+.heading h1 {
+  font-size: 2.5rem;
+  color: #333;
+}
+.subheading h2 {
+  font-size: 1.2rem;
+  color: #555;
+  font-weight: 400;
+}
+form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 2rem;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+form h2 label {
+  margin-right: 1rem;
+  font-size: 1.2rem;
+}
+form input {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-right: 1rem;
+  height: 10px;
+}
+form button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+.container {
+  width: 80%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+  grid-template-rows: auto;
+  gap: 2rem;
+}
+.item {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  border: #333 solid 1px;
+  border-radius: 10px;
+  max-width: 800px;
+}
+.desc {
+  padding: 1rem;
+  text-align: center;
+  width: 100%;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  margin: 0;
+  border-radius: 15px;
+  margin-bottom: 1rem;
+}
+a {
+  text-decoration: none;
+  color: #333;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+p {
+  font-weight: bold;
+}
